@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+
+        .col-sm-3 div {
+            border: 1px solid black;
+        }
+        .col-sm-3 div h5 {
+            text-align: center;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid" style="height: auto">
+    <header class="row">
+        <div class="col">
+            <h1>Responsive Image Gallery</h1>
+            <h5>Resize the browser window to see the effect.</h5>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-sm-3">
+            <div >
+                <img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg" width="600" height="400">
+            </div>
+            <div>
+                <h5>Add a description of the image here</h5>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div>
+                <img src="https://demo.codegym.vn/web/15/gallery/img_lights.jpg">
+            </div>
+            <div>
+                <h5>Add a description of the image here</h5>
+
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div>
+                <img src="https://demo.codegym.vn/web/15/gallery/img_forest.jpg">
+            </div>
+            <div>
+                <h5>Add a description of the image here</h5>
+
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div>
+                <img src="https://demo.codegym.vn/web/15/gallery/img_mountains.jpg">
+            </div>
+            <div>
+                <h5>Add a description of the image here</h5>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" style="padding: 30px 15px 0 15px">
+            <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
